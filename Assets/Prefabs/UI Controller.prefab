@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4130221158049369197
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4130221158049369195}
+  - component: {fileID: 4130221158049369194}
+  m_Layer: 0
+  m_Name: UI Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4130221158049369195
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4130221158049369197}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 433.15576, y: 381.71698, z: -16.09921}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4130221158049369194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4130221158049369197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d67062cf18c065b40ab6663e4072907d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundToggleButton: {fileID: 0}
+  soundToggleSprites:
+  - {fileID: 8603235226998596656, guid: 025b7a1aa58b89a48b23565834300b06, type: 3}
+  - {fileID: -718558360293635708, guid: b8ee02e3ff2d59a44a0ddeb32e5acf76, type: 3}
+  volumeSlider: {fileID: 0}
+  musicToggleSprites:
+  - {fileID: 222717968541264844, guid: 544864eec8346f2429c493af99da6e0c, type: 3}
+  - {fileID: -5337607102009280245, guid: f34e692b28a12bd4f957d1884722db44, type: 3}
+  labelToggleSprites:
+  - {fileID: 4258406977268948768, guid: 544864eec8346f2429c493af99da6e0c, type: 3}
+  - {fileID: 9009179459224223149, guid: f34e692b28a12bd4f957d1884722db44, type: 3}
+  infoToggleSprites:
+  - {fileID: 1589491410657575701, guid: 544864eec8346f2429c493af99da6e0c, type: 3}
+  - {fileID: 2306515119714469911, guid: f34e692b28a12bd4f957d1884722db44, type: 3}
+  infoPanelAnimator: {fileID: 0}
